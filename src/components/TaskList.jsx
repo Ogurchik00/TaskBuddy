@@ -21,7 +21,7 @@ const TaskList = ({tasks, deleteTask, toggleTaskStatus}) => {
 							text = {text} 
 							completed = {completed} 
 							deleteTask = {deleteTask} 
-							statusTask = {toggleTaskStatus}
+							toggleTaskStatus = {toggleTaskStatus}
 						/>)
 					)
 				) : (

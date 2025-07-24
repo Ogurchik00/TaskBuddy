@@ -50,7 +50,7 @@ function App() {
     setAllTasks(
       allTasks.map(task => 
         task.id === id ? {...task, completed: !task.completed} : task
-      )
+      ).sort(task => task.completed ? 1 : -1)
     );
   };
 
